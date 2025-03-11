@@ -1,0 +1,21 @@
+# Selection Sort :
+
+1) Algorithm :
+	Start with the entire list.
+	Find the smallest element in the unsorted part of the list.
+	Swap this smallest element with the first unsorted element.
+	Repeat the process for the remaining unsorted portion of the list.
+	Continue until the list is sorted
+
+2) Psudo Code
+	Step 1 : Start
+	Step 2 : Input the array and size (n)
+	Step 3 : LOOP i from 0 to n-2
+		Set minIndex = i
+		Loop j from i+1 to n-1
+			if a[j] < a[minIndex]
+				THEN minIndex = j 
+		swap a[i] and a[minIndex]
+	Step 4 : repeat until all elements are sorted
+	Step 5 : Print Sorted array
+	Step 6 : Stop
