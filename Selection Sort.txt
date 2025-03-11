@@ -10,9 +10,9 @@
 2) Psudo Code
 	Step 1 : Start
 	Step 2 : Input the array and size (n)
-	Step 3 : LOOP i from 0 to n-2
+	Step 3 : LOOP i from 0 to n-1
 		Set minIndex = i
-		Loop j from i+1 to n-1
+		Loop j from i+1 to n
 			if a[j] < a[minIndex]
 				THEN minIndex = j 
 		swap a[i] and a[minIndex]
