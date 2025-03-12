@@ -1,0 +1,26 @@
+# Insertion Sort
+
+
+1) Algorithm
+
+	Start with the second element in the list (assuming the first element is already sorted).
+	Compare this element with the elements in the sorted portion and insert it in the correct position.
+	Repeat the process for all the remaining elements in the unsorted portion.
+	The sorted portion grows with each insertion.
+
+2) Pseudocode
+
+		Start
+		Input The array and the size N
+		 FOR i = 1 to N-1 DO
+             		key = A[i]
+  			 j = i - 1
+			WHILE j >= 0 AND A[j] > key DO
+      				A[j+1] = A[j]  // Shift element to the right
+      				 j = j - 1
+    			END WHILE
+   			A[j+1] = key  // Insert key at correct position
+ 		END FOR
+		
+
+
